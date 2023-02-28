@@ -1,7 +1,9 @@
 import CartItem from "./CartItem";
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { clearCart } from "../features/cart/cartSlice";
 // useSelecter to access the entire store.
 const CartContainer = () => {
+  const dispatch = useDispatch();
   const { cartItems, total, amount } = useSelector((state)=>  state.cart) 
   // -- If statement. in case of 0 just retun ean mpty basket. 
   if (amount < 1) {
@@ -15,7 +17,7 @@ const CartContainer = () => {
     )
   }
   // in case of 1 or more, return all the items selected.
-  //With map we iterate iver cartItems and ineach item, we return <CartItem> with an id. and we pass all the properties of the with ...item
+  //With map we iterate over cartItems and ineach item, we return <CartItem> with an id. and we pass all the properties of the with ...item
   return(
     <section className="cart">
       <header>
@@ -33,7 +35,7 @@ const CartContainer = () => {
           total <span>${total}</span>
         </h4>
       </div>
-      <button className="btn clear-btn">clear cart</button>
+      <button className="btn clear-btn" onClick={()=>dispatch(clearCart())}>clear cart</button>
       </footer>
       </section>
   )
