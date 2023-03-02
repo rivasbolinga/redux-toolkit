@@ -1,11 +1,21 @@
 import { createSlice } from '@reduxjs/toolkit';
 import cartItems from '../../cartItems';
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+
+const url = 'https://course-api.com/react-useReducer-cart-project';
+
 const initialState = {
   cartItems : cartItems,
   amount: 4,
   total: 0,
   isLoading: true
 }
+
+export const getCartItems = createAsyncThunk('cart/getCartItems', () => {
+  return fetch(url)
+    .then((resp) => resp.json())
+    .catch((err) => console.log(error));
+});
 //-- we can mutate the state thanks immer. when we clear all the items, we mutate the items array to an empty array
 const cartSlice = createSlice({
   name: 'cart',
@@ -36,7 +46,22 @@ const cartSlice = createSlice({
       state.amount = amount;
       state.total = total;
     },
-
+  },
+  extraReducers: {
+    //while pending
+    [getCartItems.pending]: (state) => {
+      state.isLoading = true;
+    },
+    //if succes we return json response
+    [getCartItems.fulfilled]: (state, action) => {
+      console.log(action);
+      state.isLoading = false;
+      state.cartItems = action.payload;
+    },
+    //if error loading is false
+    [getCartItems.rejected]: (state) => {
+      state.isLoading = false;
+    },
   }
 })
 //
