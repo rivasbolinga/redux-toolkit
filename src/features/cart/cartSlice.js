@@ -1,4 +1,3 @@
-import { createSlice } from '@reduxjs/toolkit';
 import cartItems from '../../cartItems';
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
