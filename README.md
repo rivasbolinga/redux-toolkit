@@ -1,7 +1,6 @@
 <div align="center">
-  <img src=""
-alt="logo" width="140"  height="auto"  />
-  <br/>
+
+<img width="440" alt="Screenshot 2023-03-02 at 12 56 34" src="https://user-images.githubusercontent.com/103900838/223045546-5b9b3068-5a94-40df-bb2c-a1bb2812bd02.png">
 
 
 # 📖 [Redux Toolikit Tutorial] <a name="about-project"></a>
