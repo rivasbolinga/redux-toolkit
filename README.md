@@ -41,7 +41,74 @@ Not available at the moment.
 Comign soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- GETTING STARTED -->
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+
+<!-- PREREQUISITES -->
+
+### Prerequisites
+
+In order to run this project you need:
+
+- [ ] A PC running any operating system like Windows, Linux, or MacOS
+- [ ] An Internet connection
+- [ ] Git installed
+- [ ] Webpack installed
+- [ ] Knowledge of some basic Git commands
+
+<!-- SETUP -->
+
+### Setup
+
+- [ ] Link your PC to GitHub
+- [ ] Clone this repository to your desired folder:
+
+
+```
+git clone https://github.com/rivasbolinga/redux-toolkit.git
+```
+
+- [ ] Open the file in your code editor
+  
+<!-- INSTALL -->
+
+### Install
+
+Install this project with:
+
+```
+npm install
+```
+
+###  Instal linters for React and Redux:
+
+Here the link to install your linters: https://github.com/microverseinc/linters-config
+
+<!-- USAGE -->
+
+### Usage
+To run the project, execute the following command:
+
+```
+npm start
+```
+<!-- RUN TESTS -->
+
+###  Run tests
+
+To run Stylelint and ESLint tests, run the following commands respectively:
+
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+```
+npx eslint "**/*.{js,jsx}"
+```
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
