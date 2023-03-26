@@ -118,6 +118,7 @@ npx eslint "**/*.{js,jsx}"
 
 - GitHub: [@rivasbolinga](https://github.com/rivasbolinga)
 - Twitter: [@AndreaRivasPal](https://twitter.com/AndreaRivasPal)
+- LinkedIn: [Andrea Rivas](https://www.linkedin.com/in/andrearivaspalacios/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
