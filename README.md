@@ -3,7 +3,7 @@
 <img width="440" alt="Screenshot 2023-03-02 at 12 56 34" src="https://user-images.githubusercontent.com/103900838/223045546-5b9b3068-5a94-40df-bb2c-a1bb2812bd02.png">
 
 
-# 📖 [Redux Toolikit Tutorial] <a name="about-project"></a>
+# 📖 Redux Toolikit Tutorial <a name="about-project"></a>
 
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
@@ -18,16 +18,17 @@ This project is a practice to learn Redux Toolkit following the video tutorial f
 <a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a>
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-<img align="center" src="https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg" alt="react" width="60" height="60"/></a>
-
+<img align="center" src="https://user-images.githubusercontent.com/103900838/222968100-66b1cdba-dcbe-4047-a88f-3f55ccf983ee.svg" alt="redux" width="60" height="60"/></a>
+<img align="center" src="https://cdn-icons-png.flaticon.com/512/1183/1183672.png" alt="react" width="60" height="60"/></a>
+<a href="https://redux-toolkit.js.org/" target="_blank" rel="noreferrer">
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application.-->
-- [ ] **[Fetch API data]**
-- [ ] **[Add and reduce items from the cart]**
-- [ ] **[Clean cart button that opens popup ]**
-- [ ] **[Pop up modal with 2 buttons: one for confirm to clear the cart and other for cancel]**
+- [ ] **Fetch API data**
+- [ ] **Add and reduce items from the cart**
+- [ ] **Clean cart button that opens popup**
+- [ ] **Pop up modal with 2 buttons: one for confirm to clear the cart and other for cancel**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -58,8 +59,8 @@ Comign soon...
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Own design]**
-- [ ] **[Responsive ]**
+- [ ] **Own design**
+- [ ] **Responsive**
 
 
 
